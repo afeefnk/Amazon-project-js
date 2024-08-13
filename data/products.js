@@ -688,5 +688,15 @@ export const products = [
       count: 456
     },
     priceCents: 2999
+  },
+  {
+    id: "id3",
+    image: "images/products/nivia.jpg",
+    name: "Nivia Football",
+    rating: {
+      stars: 5,
+      count: 3825
+    },
+    priceCents: 3599
   }
 ];
