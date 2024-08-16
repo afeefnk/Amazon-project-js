@@ -59,11 +59,13 @@ async function loadPage() {
           <div class="product-quantity">
             Quantity: ${productDetails.quantity}
           </div>
+          <a href="index.html">
           <button class="buy-again-button button-primary js-buy-again"
             data-product-id="${product.id}">
+            
             <img class="buy-again-icon" src="images/icons/buy-again.png">
             <span class="buy-again-message">Buy it again</span>
-          </button>
+          </button></a>
         </div>
         <div class="product-actions">
           <a href="tracking.html?orderId=${order.id}&productId=${product.id}">
