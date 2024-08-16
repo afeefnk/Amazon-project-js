@@ -59,7 +59,7 @@ async function loadPage() {
           <div class="product-quantity">
             Quantity: ${productDetails.quantity}
           </div>
-          <<button class="buy-again-button button-primary js-buy-again"
+          <button class="buy-again-button button-primary js-buy-again"
             data-product-id="${product.id}">
             <img class="buy-again-icon" src="images/icons/buy-again.png">
             <span class="buy-again-message">Buy it again</span>

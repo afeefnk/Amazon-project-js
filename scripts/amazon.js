@@ -142,3 +142,18 @@ function renderProductsGrids() {
       }
     });
 }
+
+
+const slides = document.querySelector('.js-image-slider .slides');
+const slideImages = document.querySelectorAll('.js-image-slider .slide');
+let currentIndex = 0;
+
+function showNextSlide() {
+  currentIndex++;
+  if (currentIndex >= slideImages.length) {
+    currentIndex = 0;
+  }
+  slides.style.transform = `translateX(-${currentIndex * 100}%)`;
+}
+
+setInterval(showNextSlide, 3000); // Change slide every 3 seconds
